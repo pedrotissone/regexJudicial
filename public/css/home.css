@@ -1,0 +1,18 @@
+.textAreaDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    min-height: 100px;
+    height: auto;
+}
+
+.filtrosTitle {
+    text-align: center;
+}
+
+.filtrosDiv {
+    display: flex;
+    justify-content: space-around;
+}

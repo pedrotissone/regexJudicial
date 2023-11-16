@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/home.css" />
+    <script defer src="./public/javascript/home.js"></script>
+    <title>Regex Judicial</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>REGEX JUDICIAL</h1>
+    </header>
+
+    <main>
+        <div class="textAreaDiv">
+            <label for="textArea">Copie el PDF aqui</label>
+            <textarea id="textArea" oninput="ajustarAltura(this)"></textarea>
+            <!--El this se refiere al elemento en cuestion (en este caso textarea) que paso como argumento en la funcion-->
+            <h3 class="filtrosTitle">Seleccione los filtros</h3>
+            <div class="filtrosDiv">
+
+                <div>
+                    <label>Seleccione último número</label>
+                    <select id="filtroNumero">
+                        <option value="-">-</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="filtroAdicional">Seleccione filtro adicional</label>
+                    <select id="filtroAdicional">
+                        <option value="-">-</option>
+                        <option value="bajo(0,1,2,3,4)">bajo(0,1,2,3,4)</option>
+                        <option value="alto(5,6,7,8,9)">alto(5,6,7,8,9)</option>
+                        <option value="par">par</option>
+                        <option value="impar">impar</option>
+                    </select>
+                </div>
+            </div>
+            <button>Extraer números</button>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
