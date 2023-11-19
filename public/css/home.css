@@ -8,6 +8,7 @@ textarea {
     height: auto;
 }
 
+
 .filtrosTitle {
     text-align: center;
 }
@@ -15,4 +16,10 @@ textarea {
 .filtrosDiv {
     display: flex;
     justify-content: space-around;
+}
+
+.extraerNumerosButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
 }

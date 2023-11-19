@@ -18,7 +18,7 @@
     <main>
         <div class="textAreaDiv">
             <label for="textArea">Copie el PDF aqui</label>
-            <textarea id="textArea" oninput="ajustarAltura(this)"></textarea>
+            <textarea id="textArea" oninput="ajustarAltura(this)"></textarea>            
             <!--El this se refiere al elemento en cuestion (en este caso textarea) que paso como argumento en la funcion-->
             <h3 class="filtrosTitle">Seleccione los filtros</h3>
             <div class="filtrosDiv">
@@ -37,6 +37,7 @@
                         <option value="7">7</option>
                         <option value="8">8</option>
                         <option value="9">9</option>
+                        <option value="todos">todos</option>                        
                     </select>
                 </div>
 
@@ -51,7 +52,7 @@
                     </select>
                 </div>
             </div>
-            <button>Extraer números</button>
+            <button class="extraerNumerosButton">Extraer números</button>
         </div>
 
     </main>
